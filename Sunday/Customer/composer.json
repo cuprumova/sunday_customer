@@ -1,0 +1,23 @@
+{
+    "name": "sunday/customer.comments",
+    "description": "Adds customer attribute professional title for checkout and saves in the order address",
+    "type": "magento2-module",
+    "version": "1.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Anastasiia Miednykh",
+            "email": "avmednykh@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sunday\\Customer\\": ""
+        }
+    }
+}
